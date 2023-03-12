@@ -1,0 +1,36 @@
+/* div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid  red;
+    margin: 10%;
+    padding: 0 20px;
+    box-sizing: border-box;
+} */
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    /* background: linear-gradient(red, yellow); muda de uma cor para a outra gradativamente */
+    /* background: radial-gradient(red, yellow); muda de uma cor para outra em forma de circulo */
+}
+
+/* .head {
+    height: 100px;
+    border: 7px dashed red;
+    padding: 16px;
+} */
+
+
+body {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://images.hdqwalls.com/wallpapers/white-plane-dark-minimal-4k-6w.jpg);
+    background-repeat: no-repeat;
+    background-position: center; /*right, top, bottom, left */
+    background-size: cover; /* container(imagem ficar dentro da caixa), cover(cobre todo background da caixa)*/
+    background-origin: content-box; /* border-box, content-box, padding-box   */
+    background-clip: content-box; /* border-box, content-box, padding-box   */
+    background-attachment: fixed; 
+ 
+
+}
